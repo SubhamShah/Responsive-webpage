@@ -1,0 +1,78 @@
+body {
+color:white;
+}
+section div h1 {                                  
+background-color:white;
+color:red;
+text-align:center;
+font-weight:bold;
+text-decoration:underline;
+padding:10px;                    
+}
+h2 {
+color:red;
+padding:10px;
+}
+.saman {
+color:blue;
+list-style-position:inside;        
+font-size:20px;
+}
+.process{
+color:yellow;
+font-size:25px;
+}
+.links {
+font-size:30px;
+font-family:cursive;
+}
+#finish {
+font-size:20px;
+font-family:cursive;
+color:purple;
+}
+.process ol{
+list-style-type:upper-roman;
+}
+.saman ul {
+list-style-type:square;
+}
+.links ul{
+list-style-image:url('capture.jpg');
+}
+p span:first-child{
+color:red;
+font-style:italic;
+}
+p span:last-child{
+text-decoration:underline;
+}
+@media screen and (max-width: 400px)
+{
+ body {
+    background-color: green;
+      }
+}
+@media screen and (min-width:400px)
+{
+body{
+background-color:purple;
+}
+section div h1 {                                  
+background-color:red;
+color:yellow;
+}
+}
+@media screen and (min-width:750px)
+{
+body{
+background-color:pink;
+}
+.process ol{
+list-style-type:lower-roman;
+}
+.links {
+font-size:20px;
+font-style:italic;
+}
+}
